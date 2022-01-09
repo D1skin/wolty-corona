@@ -74,7 +74,7 @@ Usage is 'wolty-corona "<location>"'
                 if (first) {
                         first = false;
                 } else {
-                        sleep(60000);
+                        await sleep(60000);
                 };
                 // find nearby retailers
                 const nearbyRetail = (await axios.get(getRetailURLBuilder(coords.lat, coords.lng)))
