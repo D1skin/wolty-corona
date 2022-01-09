@@ -31,6 +31,12 @@ $ docker build -t wolty-corona .
 $ docker run wolty-corona "MY_LOCATION"
 ```
 
+##### how to stop
+```sh
+$ docker ps
+$ docker kill <CONTAINER ID>
+```
+
 
 ### PIX OR IT DIDN'T HAPPEN
 Here are the matching venues for my company - [Authomize](https://github.com/authomize) offices:
@@ -54,7 +60,7 @@ I would love a "send SMS" feature or a "noisy alert" feature but am too lazy to 
 ### Credits & warnings
 originally forked from https://github.com/aviadhahami/wolty 
 
-The new code was hacked by yours truly who takes no responsiblity. The new code was half hacked on my phone and half on a computer within a bit more than an hour and is obviously half baked. For the geeks - it uses additional APIs for retail and for also uses the wolt v4 API for some stuff and I take no responsiblity to anything - use at your own risk.
+The new code was hacked by yours truly who takes no responsiblity. The new code was half hacked on my phone and half on a computer within a bit more than an hour (and then spent more time adding it nicely to a this repo) and is obviously half baked. For the geeks - it uses additional APIs for retail and for also uses the wolt v4 API for some stuff and I take no responsiblity to anything - use at your own risk.
 
 ### final note for the hacking minded
 API leaks a lot of data, if you like hacking - it seems like a fun place to do a test (please responsibly disclose!).
