@@ -67,7 +67,9 @@ Usage is 'wolty-corona "<location>"'
 
         // iterate until we get a result
         let first = true;
+        console.log("entering loop:");
         do {
+                console.log("*");
                 // sleep if not first time
                 if (first) {
                         first = false;
